@@ -1,0 +1,47 @@
+
+
+
+html{
+    background-color: #71A1D1;
+}
+
+    body{
+padding: 20px;
+    }
+
+
+
+/* Navigation */
+header{
+    background-color: #F2F2F2;
+  display: grid;
+place-items: center;
+
+}
+nav {
+    background-color: #F4FAF7;
+    padding: 20px;
+}
+nav a{
+    color: black;
+   text-decoration: none;
+   padding: 20px;
+
+}
+nav a:hover {
+    text-decoration: underline;
+    background-color: grey;
+   padding: 20px;
+ }
+
+
+
+ /*footer*/
+ 
+footer {
+    background-color: #F2F2F2;
+    padding: 15px;
+}
+footer a{
+ color: black;
+}

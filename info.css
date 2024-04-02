@@ -1,0 +1,41 @@
+
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-template-rows: 1fr 2fr 1fr .5fr;
+    grid-template-areas:
+    "header header"
+    "aside video"
+    "aside article"
+    "footer footer" ;
+    column-gap: 15px;
+    row-gap: 1px;
+
+}
+header{
+    grid-area: header;
+}
+
+aside{
+    grid-area: aside;
+    background-color: #81D0E8;
+
+
+
+
+}
+article#info{
+   
+    grid-area: video;
+    display: grid;
+   place-items: right;
+   padding-bottom: 200px;
+   
+}
+article#article2{
+    grid-area: article;
+}
+footer{
+    grid-area: footer;
+}

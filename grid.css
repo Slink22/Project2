@@ -1,0 +1,29 @@
+ body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+    "header header"
+    "article aside"
+    "article aside2"
+    "footer footer" ;
+    gap: 15px;
+
+}
+header{
+    grid-area: header;
+}
+aside#aside1{
+    grid-area: aside;
+}
+aside#aside2{
+    grid-area: aside2;
+}
+article{
+    grid-area: article;
+}
+footer{
+    grid-area: footer;
+}
+
+
