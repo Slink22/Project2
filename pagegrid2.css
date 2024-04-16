@@ -1,0 +1,46 @@
+
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-template-rows: 1fr 2fr .5fr;
+    grid-template-areas:
+    "header header"
+    "aside video"
+    "footer footer" ;
+    column-gap: 15px;
+    row-gap: 1px;
+
+}
+
+header{
+    grid-area: header;
+}
+
+aside{
+    grid-area: aside;
+    background-color: #81D0E8;
+    place-items: center;
+
+
+
+}
+
+
+article#video{
+    
+    grid-area: video;
+  
+
+}
+
+footer{
+
+
+    grid-area: footer;
+ 
+    place-items: center;
+
+}
+
+
